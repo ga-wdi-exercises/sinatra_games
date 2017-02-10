@@ -6,9 +6,6 @@
 	- returns "Heads" or "Tails"
 - GET `/dice_roll`
     - returns a number between 1 and 6
-- GET `/rps/rock`
-	- returns the computer's random choice, followed by the outcome of the rps game.
-      - __Example:__ "The computer chose (computer's choice). You (win/lose/tie)!"
 - GET `/magic8ball/will%20it%20snow%20tomorrow`
  	- returns the question asked (in this case, "Will it snow tomorrow?"), followed by a random magic 8 ball response (see below)
 
