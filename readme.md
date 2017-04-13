@@ -1,6 +1,6 @@
-#Sinatra Games
+# Sinatra Games
 
-###Specification:
+### Specification:
 
 - GET `/coin_toss`
 	- returns "Heads" or "Tails"
@@ -9,7 +9,7 @@
 - GET `/magic8ball/will%20it%20snow%20tomorrow`
  	- returns the question asked (in this case, "Will it snow tomorrow?"), followed by a random magic 8 ball response (see below)
 
-###Magic 8 Ball Responses
+### Magic 8 Ball Responses
 
 ```Ruby
 [ 
