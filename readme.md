@@ -9,6 +9,8 @@
 - GET `/magic8ball/will%20it%20snow%20tomorrow`
  	- returns the question asked (in this case, "Will it snow tomorrow?"), followed by a random magic 8 ball response (see below)
 
+> Hint: if you are returning a number from a controller action, you need to stringify it: `.to_s`
+
 ### Magic 8 Ball Responses
 
 ```Ruby
